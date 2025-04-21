@@ -1,0 +1,15 @@
+h1{
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.required::after{
+    content: " *";
+    color: #ff0000;
+}
+
+input{
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
